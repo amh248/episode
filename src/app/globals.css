@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-lbd-bg text-lbd-text antialiased;
+}
+
+a {
+  @apply transition-colors;
+}
+
+input,
+textarea,
+select {
+  @apply bg-lbd-bg text-lbd-text;
+}
+
+::selection {
+  @apply bg-lbd-green/30 text-white;
+}
